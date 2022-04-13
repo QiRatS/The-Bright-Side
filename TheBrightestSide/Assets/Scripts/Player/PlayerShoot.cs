@@ -50,10 +50,10 @@ public class PlayerShoot : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (gCheck.IsGrounded)
-		{
-			curAmmo = maxAmmo;
-		}
+	//	if (gCheck.IsGrounded)
+	//	{
+	//		curAmmo = maxAmmo;
+	//	}
 		Vector3 mousePos = Input.mousePosition;
 		Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, Mathf.Abs(Camera.main.transform.position.z)));
 		Vector3 mousePlanePos = Vector3.ProjectOnPlane(mouseWorldPos, Vector3.forward);

@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
 			}
 		   // Debug.Log("moving");
 		}
-		if (Input.GetButtonDown("Jump") && gCheck.IsGrounded == true)
+		if (Input.GetButtonDown("Jump")) 
 		{
 			rb.AddForce(Vector3.up * character1.jumpForce);
 			StartCoroutine(Jumping());
@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
 		float timer = 0;
 		while (timer < character1.floatTime)
 		{
-			if (Input.GetButton("Jump") && gCheck.IsGrounded == false)
+			if (Input.GetButton("Jump"))
 			{
 				rb.AddForce(Vector3.up * character1.floatForce * Time.deltaTime);
 			}
