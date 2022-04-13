@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543cf4729b0d2174a97f4c161599f0f6, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier:
+  name: Player
+  attackValue: 5
+  energyCost: 3
+  health: 100
+  acell: 12
+  jumpForce: 300
+  floatForce: 100
+  floatTime: 0.7
+  recoilForce: 4
+  recoilFixCoef: 1.5
+  projTime: 8
+  maxSpeed: 6
+  artwork: {fileID: 0}
+  Prefab: {fileID: 7379819432460678310, guid: 21b40283fdbb10d4aa85a7860f29a96a, type: 3}
