@@ -65,7 +65,7 @@ public class PlayerShoot : MonoBehaviour
 		if (verbose)
 			Debug.DrawLine(fireSpot.transform.position, mousePlanePos, Color.red, 0.5f);
 
-		fireSpot.transform.rotation = fireSpotRotation;
+	//	fireSpot.transform.rotation = fireSpotRotation;
 
 		if (Input.GetButtonDown("Fire1"))
 		{

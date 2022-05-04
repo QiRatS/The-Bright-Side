@@ -11,12 +11,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 543cf4729b0d2174a97f4c161599f0f6, type: 3}
   m_Name: Player
-  m_EditorClassIdentifier:
+  m_EditorClassIdentifier: 
   name: Player
   attackValue: 5
   energyCost: 3
   health: 100
-  acell: 12
+  acell: 350
   jumpForce: 300
   floatForce: 100
   floatTime: 0.7

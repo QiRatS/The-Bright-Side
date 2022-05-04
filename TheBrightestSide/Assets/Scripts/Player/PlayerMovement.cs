@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 	}
 
 	// Update is called once per frame
-	void Update()
+	void FixedUpdate()
 	{
 		// Player shooting mechanic should be in seperate script
 		// and recieve mouse input in here
